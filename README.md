@@ -9,13 +9,7 @@
 - [Books](#books)
 - [Foundation](#foundation)
 - [Architecture](#architecture)
-- [Vision](#vision)
 - [Language](#language)
-- [Audio](#audio)
-- [Time-Series](#time-series)
-- [Medical](#medical)
-- [Tabular](#tabular)
-- [Reinforcement Learning](#reinforcement-learning)
 - [Parameterization and Initialization](#ssm-parameterization-and-initialization)
 - [Miscellaneous](#miscellaneous)
 
@@ -74,50 +68,6 @@
 4. [MambaByte: Token-free Selective State Space Model](https://arxiv.org/abs/2401.13660) [[code]](https://github.com/lucidrains/MEGABYTE-pytorch)
 5. [Can Mamba Learn How to Learn? A Comparative Study on In-Context Learning Tasks](https://arxiv.org/abs/2402.04248)
 
-## Audio
-1. [It's Raw! Audio Generation with State-Space Models](https://arxiv.org/abs/2202.09729) (ICML 2022) [[code]](https://github.com/state-spaces/s4)
-2. [Augmenting conformers with structured state space models for online speech recognition](https://arxiv.org/abs/2309.08551)
-3. [Diagonal State Space Augmented Transformers for Speech Recognition](https://arxiv.org/abs/2302.14120)
-4. [Structured State Space Decoder for Speech Recognition and Synthesis](https://arxiv.org/abs/2210.17098)
-5. [Spiking Structured State Space Model for Monaural Speech Enhancement](https://arxiv.org/abs/2309.03641)
-6. [A Neural State-Space Model Approach to Efficient Speech Separation](https://arxiv.org/abs/2305.16932)
-7. [Multi-Head State Space Model for Speech Recognition](https://arxiv.org/abs/2305.12498)
-8. [SSAMBA: Self-Supervised Audio Representation Learning with Mamba State Space Model](https://arxiv.org/abs/2405.11831) [[code]](https://github.com/SiavashShams/ssamba)
-
-## Time-Series
-1. [Deep State Space Models for Time Series Forecasting](https://papers.nips.cc/paper_files/paper/2018/hash/5cf68969fb67aa6082363a6d4e6468e2-Abstract.html) (NeurIPS 2018)
-2. [FiLM: Frequency improved Legendre Memory Model for Long-term Time Series Forecasting](https://arxiv.org/abs/2205.08897) (NeurIPS 2022)
-3. [Effectively modeling time series with simple discrete state spaces](https://arxiv.org/abs/2303.09489) (ICLR 2023)
-4. [Deep Latent State Space Models for Time-Series Generation](https://arxiv.org/abs/2212.12749) (ICML 2023)
-5. [Generative AI for End-to-End Limit Order Book Modelling](https://arxiv.org/abs/2309.00638) (ICAIF 2023)
-6. [On the Performance of Legendre State-Space Models in Short-Term Time Series Forecasting](https://ieeexplore.ieee.org/document/10289082) (CCECE 2023)
-7. [Neural Continuous-Discrete State Space Models for Irregularly-Sampled Time Series](https://arxiv.org/abs/2301.11308)
-8. [Diffusion-based Time Series Imputation and Forecasting with Structured State Space Models](https://arxiv.org/abs/2208.09399)
-
-## Medical
-1. [Structured State Space Models for Multiple Instance Learning in Digital Pathology](https://arxiv.org/abs/2306.15789)
-2. [Modeling Multivariate Biosignals with Graph Neural Networks and Structured State Space](https://arxiv.org/abs/2211.11176)
-3. [Diffusion-based conditional ECG generation with structured state space models](https://arxiv.org/abs/2301.08227)
-4. [Improving the Diagnosis of Psychiatric Disorders with Self-Supervised Graph State Space Models](https://arxiv.org/abs/2206.03331)
-5. [fMRI-S4: learning short- and long-range dynamic fMRI dependencies using 1D Convolutions and State Space Models](https://arxiv.org/abs/2208.04166)
-6. [Vivim: a Video Vision Mamba for Medical Video Object Segmentation](https://arxiv.org/abs/2401.14168) [[code]](https://github.com/scott-yjyang/Vivim)
-7. [MambaMorph: a Mamba-based Backbone with Contrastive Feature Learning for Deformable MR-CT Registration](https://arxiv.org/abs/2401.13934) [[code]](https://github.com/Guo-Stone/MambaMorph)
-8. [SegMamba: Long-range Sequential Modeling Mamba For 3D Medical Image Segmentation](https://arxiv.org/abs/2401.13560) [[code]](https://github.com/ge-xing/SegMamba)
-9. [U-Mamba: Enhancing Long-range Dependency for Biomedical Image Segmentation](https://arxiv.org/abs/2401.04722) [[code]](https://github.com/bowang-lab/U-Mamba)
-10. [nnMamba: 3D Biomedical Image Segmentation, Classification and Landmark Detection with State Space Model](https://arxiv.org/abs/2402.03526)
-11. [VM-UNet: Vision Mamba UNet for Medical Image Segmentation](https://arxiv.org/abs/2402.02491)
-12. [MambaMIR: An Arbitrary-Masked Mamba for Joint Medical Image Reconstruction and Uncertainty Estimation](https://arxiv.org/abs/2402.18451)
-13. [ViM-UNet: Vision Mamba for Biomedical Segmentation](https://doi.org/10.48550/arXiv.2404.07705) (MIDL 2024)
-14. [I2I-Mamba: Multi-modal medical image synthesis via selective state space modeling](https://arxiv.org/abs/2405.14022) [[code]](https://github.com/icon-lab/I2I-Mamba)
-
-## Tabular
-1. [MambaTab: A Simple Yet Effective Approach for Handling Tabular Data](https://arxiv.org/abs/2401.08867)
-
-## Reinforcement Learning
-1. [Decision S4: Efficient Sequence-Based RL via State Spaces Layers](https://arxiv.org/abs/2306.05167) (ICLR 2023)
-2. [Structured State Space Models for In-Context Reinforcement Learning](https://arxiv.org/abs/2303.03982) (NeurIPS 2023)
-3. [Mastering Memory Tasks with World Models](https://openreview.net/forum?id=1vDArHJ68h) (ICLR 2024 oral)
-
 ## SSM Parameterization and Initialization
 1. [Combining Recurrent, Convolutional, and Continuous-time Models with Linear State-Space Layers](https://arxiv.org/abs/2110.13985) (NeurIPS 2021)
 2. [Eﬃciently Modeling Long Sequences with Structured State Spaces](https://arxiv.org/abs/2110.13985) (ICLR 2022)
@@ -127,6 +77,22 @@
 7. [Robustifying State-space Models for Long Sequences via Approximate Diagonalization](https://arxiv.org/abs/2310.01698)
 8. [StableSSM: Alleviating the Curse of Memory in State-space Models through Stable Reparameterization](https://arxiv.org/abs/2311.14495)
 9. [Spectral State Space Models](https://arxiv.org/abs/2312.06837)
+
+## Representation Power
+1. [Understanding the differences in Foundation Models: Attention, State Space Models, and Recurrent Neural Networks](https://arxiv.org/abs/2405.15731)
+2. [The Expressive Capacity of State Space Models: A Formal Language Perspective](https://arxiv.org/abs/2405.17394)
+3. [Repeat After Me: Transformers are Better than State Space Models at Copying](https://arxiv.org/abs/2402.01032)
+
+## SSD / Linear Attention Variants
+1. [Gated Linear Attention Transformers with Hardware-Efficient Training](https://arxiv.org/abs/2312.06635)
+2. [Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention](https://arxiv.org/abs/2006.16236)
+3. [GateLoop: Fully Data-Controlled Linear Recurrence for Sequence Modeling](https://arxiv.org/abs/2311.01927)
+4. [Retentive Network: A Successor to Transformer for Large Language Models](https://arxiv.org/pdf/2307.08621)
+
+## Other Recurrent Models / Non - Attention
+1. [RWKV: Reinventing RNNs for the Transformer Era](https://arxiv.org/abs/2305.13048)
+2. [Eagle and Finch: RWKV with Matrix-Valued States and Dynamic Recurrence](https://arxiv.org/abs/2404.05892)
+3. [xLSTM: Extended Long Short-Term Memory](https://arxiv.org/abs/2405.04517)
 
 ## Miscellaneous
 1. [Variational learning for switching state-space models](https://www.cs.toronto.edu/~hinton/absps/switch.pdf) (Neural Computation 2000)
