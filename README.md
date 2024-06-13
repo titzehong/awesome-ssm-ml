@@ -30,13 +30,8 @@
 6. [Mamba: The Hard Way](https://srush.github.io/annotated-mamba/hard.html)
 7. [A Visual Guide to Mamba and State Space Models](https://open.substack.com/pub/maartengrootendorst/p/a-visual-guide-to-mamba-and-state)
 8. [State Space Models: A Modern Approach](https://probml.github.io/ssm-book/root.html)
+9. [State Space Duality (Mamba-2)](https://tridao.me/blog/2024/mamba2-part1-model/)
 
-#### Videos
-1. [Efficiently Modeling Long Sequences with Structured State Spaces](https://www.youtube.com/watch?v=luCBXCErkCs)
-2. [Do we need Attention? A Mamba Primer](https://www.youtube.com/watch?v=dVH1dRoMPBc)
-3. [Mamba and S4 Explained: Architecture, Parallel Scan, Kernel Fusion, Recurrent, Convolution, Math](https://www.youtube.com/watch?v=8Q_tqwpTpVU)
-4. [MAMBA from Scratch](https://www.youtube.com/watch?v=N6Piou4oYx8)
-5. [Yannic Kilcher's Video](https://www.youtube.com/watch?v=9dSkvxS2EB0)
 
 ## Surveys (Structured State Space Models) <a name="surveys"></a>
 1. [Modeling Sequences with Structured State Spaces](https://www.proquest.com/docview/2880853867?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses)
@@ -57,6 +52,7 @@
 6. [The Hidden Attention of Mamba Models](https://arxiv.org/abs/2403.01590)
 7. [The Expressive Capacity of State Space Models: A Formal Language Perspective](https://arxiv.org/abs/2405.17394)
 8. [Simplifying and Understanding State Space Models with Diagonal Linear RNNs](https://arxiv.org/abs/2212.00768)
+9. [Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality](https://arxiv.org/abs/2405.21060)
 
 ## Architecture
 1. [S5: Simplified State Space Layers for Sequence Modeling](https://arxiv.org/abs/2208.04933) (ICLR 2023) [[code]](https://github.com/lindermanlab/S5)
@@ -71,21 +67,6 @@
 10. [Block-State Transformers](https://arxiv.org/abs/2306.09539)
 11. [Efficient Long Sequence Modeling via State Space Augmented Transformer](https://arxiv.org/abs/2212.08136)
    
-## Vision
-1. [S4ND: Modeling Images and Videos as Multidimensional Signals with State Spaces](https://arxiv.org/abs/2210.06583) (NeurIPS 2022)
-2. [Long movie clip classification with state-space video models](https://arxiv.org/abs/2204.01692) (ECCV 2022) [[code]](https://github.com/md-mohaiminul/ViS4mer)
-3. [Efficient Movie Scene Detection using State-Space Transformers](https://arxiv.org/abs/2212.14427) (CVPR 2023)
-4. [Selective Structured State-Spaces for Long-Form Video Understanding](https://arxiv.org/abs/2303.14526) (CVPR 2023)
-5. [2-D SSM: A General Spatial Layer for Visual Transformers](https://arxiv.org/abs/2306.06635) [[code]](https://github.com/ethanbar11/ssm_2d)
-6. [Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model](https://arxiv.org/abs/2401.09417) [[code]](https://github.com/hustvl/Vim)
-7. [VMamba: Visual State Space Model](https://arxiv.org/abs/2401.10166) [[code]](https://github.com/MzeroMiko/VMamba)
-8. [U-shaped Vision Mamba for Single Image Dehazing](https://arxiv.org/abs/2402.04139) [[code]](https://github.com/zzr-idam/UVM-Net)
-9. [Res-VMamba: Fine-Grained Food Category Visual Classification Using Selective State Space Models with Deep Residual Learning](https://arxiv.org/abs/2402.15761) [[code]](https://github.com/ChiShengChen/ResVMamba)
-10. [Weak-Mamba-UNet: Visual Mamba Makes CNN and ViT Work Better for Scribble-based Medical Image Segmentation](https://arxiv.org/abs/2402.10887) [[code]](https://github.com/ziyangwang007/Mamba-UNet)
-11. [LocalMamba: Visual State Space Model with Windowed Selective Scan](https://arxiv.org/abs/2403.09338) [[code]](https://github.com/hunto/LocalMamba)
-12. [Motion Mamba: Efficient and Long Sequence Motion Generation with Hierarchical and Bidirectional Selective SSM](https://arxiv.org/abs/2403.07487) [[code]](https://steve-zeyu-zhang.github.io/MotionMamba/?utm_source=catalyzex.com)
-13. [A Survey on Visual Mamba](https://arxiv.org/abs/2404.15956)
-
 ## Language
 1. [Hungry Hungry Hippos: Towards Language Modeling with State Space Models](https://arxiv.org/abs/2212.14052) (ICLR 2023) [[code]](https://github.com/HazyResearch/H3)
 2. [Long range language modeling via gated state spaces](https://arxiv.org/abs/2206.13947) (ICLR 2023) [[code]](https://github.com/lucidrains/gated-state-spaces-pytorch.git)
